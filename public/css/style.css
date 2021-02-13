@@ -1,0 +1,19 @@
+.tulisansistem {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #1769B1;
+    font-size: 2vw;
+}
+
+.label1 {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #1769B1;
+    font-size: medium;
+}
+
+.form1 {
+    background-color: #6dc1ee;
+}

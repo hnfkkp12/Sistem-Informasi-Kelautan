@@ -24,7 +24,11 @@ use App\Models;
 // Route::get('/', 'DashboardController@index')->name('admin-dashboard');
 //  Route::resource('employes', 'EmployesController');
 
-Route::get('/', 'Admin\DashboardsController@index')->name('admin-dashboard');
+Route::get('/', function(){return view('login/login');});
+
+Route::post('/Dashboards', 'Admin\DashboardsController@index')->name('admin-dashboard');
+
+Route::get('/biota', [App\Http\Controllers\Admin\EmployesController::class, 'index']);
 
 // ->middleware(['auth', '1'])
 Route::prefix('admin')
